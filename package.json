@@ -1,0 +1,12 @@
+{
+  "name": "percy-basics",
+  "version": "1.0.0",
+  "description": "Percy Basics",
+  "scripts": {
+    "percy.master": "export PERCY_BRANCH=master && percy snapshot snapshots.yml",
+    "percy.dev": "percy snapshot snapshots.yml"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.30.6"
+  }
+}

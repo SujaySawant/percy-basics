@@ -1,0 +1,6 @@
+- http://localhost:8080
+- http://localhost:8080/commands/querying
+- http://localhost:8080/commands/traversal
+- http://localhost:8080/commands/actions
+- http://localhost:8080/commands/window
+- http://localhost:8080/commands/viewport

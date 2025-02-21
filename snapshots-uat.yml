@@ -1,0 +1,11 @@
+- name: Home page
+  url: https://www.browserstack.com
+- name: Documentation page
+  url: https://www.browserstack.com/docs
+  percyCSS: |
+    .docs--container { height:auto; }
+    .docs--container .docs--content { height:auto; }
+- name: Integrations page
+  url: https://www.browserstack.com/integrations
+- name: Pricing page
+  url: https://www.browserstack.com/pricing

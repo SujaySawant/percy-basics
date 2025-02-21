@@ -1,0 +1,22 @@
+- name: Home page
+  url: https://k8s.bsstag.com
+  execute: "window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
+- name: Documentation page
+  url: https://k8s.bsstag.com/docs
+  percyCSS: |
+    .docs--container {
+      height:unset;
+    }
+    .docs--container .docs--content
+    {
+      height:unset;
+      overflow-y:visible;
+      overflow-x:visible;
+    }
+  execute: "window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
+- name: Integrations page
+  url: https://k8s.bsstag.com/integrations
+  execute: "window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
+- name: Pricing page
+  url: https://k8s.bsstag.com/pricing
+  execute: "window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"

@@ -1,0 +1,6 @@
+- name: Lokelma page
+  url: https://www.lokelma.com/
+  execute: "window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
+- name: Farxiga page
+  url: https://www.farxiga.com
+  execute: "window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"

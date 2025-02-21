@@ -1,0 +1,14 @@
+base-url: http://localhost:8080
+snapshots:
+  - url: /
+    name: "Home"
+  - url: /commands/querying
+    name: "Querying"
+  - url: /commands/traversal
+    name: "Traversal"
+  - url: /commands/actions
+    name: "Actions"
+  - url: /commands/window
+    name: "Window"
+  - url: /commands/viewport
+    name: "Viewport"
