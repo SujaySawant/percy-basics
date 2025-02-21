@@ -4,3 +4,4 @@ errorShots
 .DS_Store
 allure_reports
 logs
+.env
